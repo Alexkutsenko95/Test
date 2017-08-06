@@ -1,0 +1,86 @@
+body {
+  background: #fff; }
+
+.blist {
+  display: inline-block;
+  background: transparent;
+  color: #FF1CAE;
+  border: 1px dashed #05A5D1;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 20px;
+  transition: all 500ms ease-out 0.5s; }
+  .blist:hover {
+    border-color: #222;
+    color: #fff; }
+
+.App {
+  text-align: center; }
+
+.text-left {
+  text-align: left;
+  display: inline-block; }
+
+.text-right {
+  text-align: left;
+  display: inline-block;
+  text-align: left; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-intro {
+  font-size: large;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center; }
+
+.hide {
+  display: none;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: height 500ms ease-out 1s;
+  -moz-transition: height 500ms ease-out 1s;
+  -o-transition: height 500ms ease-out 1s;
+  transition: height 500ms ease-out 1s; }
+
+.show {
+  display: inline-flex;
+  position: absolute;
+  width: 25%;
+  height: 30%;
+  top: 30%;
+  left: 1rem;
+  opacity: 1;
+  background: rgba(18, 73, 63, 0.8);
+  color: #05A5D1; }
+
+.cDiv {
+  position: absolute;
+  border: 1px solid #05A5D1;
+  background: #12493f; }
+
+.show button {
+  background: transparent;
+  border: 1px solid #05A5D1;
+  font-size: 20px;
+  padding: 10px;
+  color: #05A5D1;
+  margin-top: 30px;
+  transition: all 500ms ease-out 0.5s; }
+  .show button:hover {
+    border-color: #fff;
+    color: #fff; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
